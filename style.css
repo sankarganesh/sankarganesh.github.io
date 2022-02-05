@@ -113,6 +113,12 @@ body { font-size: 1em;}
 .side3:before{ border-color: rgba(255,   0, 0, 0.3) transparent transparent transparent; } 
 .side4:before{ border-color: rgba(0, 255, 255, 0.3) transparent transparent transparent; }
 
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
 
 @-webkit-keyframes turnPyramid { 100% { -webkit-transform: rotateX(75deg) rotate(425deg); } }
 @keyframes turnPyramid { 100% { transform: rotateX(75deg) rotate(425deg); } }
