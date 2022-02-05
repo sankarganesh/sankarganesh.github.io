@@ -145,18 +145,6 @@ navbar {
     } 
 
 
-.logo {
-  float: left;
-  margin-left: 28px;
-  font-size: 1.5em;
-  height: 60px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-} @media(max-width: 768px) {
-    .logo {
-/*       margin-left: 5px; */
-    }
-  }
 
 #navbar ul {
   display: inline-block;
@@ -236,6 +224,13 @@ navbar {
   /* transition: 0s; */
 }
 
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 
 
 @-webkit-keyframes turnPyramid { 100% { -webkit-transform: rotateX(75deg) rotate(425deg); } }
