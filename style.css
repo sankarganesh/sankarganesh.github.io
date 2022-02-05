@@ -55,6 +55,11 @@ ul {
     clear:both;
 }
 
+.two-col p {
+     width:50%;
+     float: left;
+        }
+
 
 html { font-size: 62.5%; }
 body { font-size: 1em;}
